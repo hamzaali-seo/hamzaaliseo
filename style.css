@@ -1,0 +1,139 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial;
+}
+
+body{
+background:#f4f7fb;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:linear-gradient(45deg,#0d6efd,#001f66);
+color:white;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+/* Navigation */
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:150px 20px;
+background:white;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:25px;
+}
+
+.cta{
+display:inline-block;
+padding:16px 40px;
+background:linear-gradient(45deg,#0d6efd,#00aaff);
+color:white;
+border-radius:40px;
+margin:15px;
+text-decoration:none;
+transition:0.4s;
+}
+
+.cta:hover{
+transform:scale(1.08);
+}
+
+/* Services Cards */
+
+.services{
+padding:100px 20px;
+text-align:center;
+}
+
+.service-box{
+display:inline-block;
+width:280px;
+background:white;
+padding:25px;
+margin:20px;
+border-radius:25px;
+box-shadow:0 0 20px rgba(0,0,0,0.08);
+transition:0.5s;
+}
+
+.service-box:hover{
+transform:translateY(-12px);
+}
+
+/* Footer */
+
+footer{
+background:#0d6efd;
+color:white;
+padding:60px 20px;
+margin-top:100px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-box{
+width:300px;
+margin:20px;
+}
+
+/* WhatsApp Button */
+
+.whatsapp{
+position:fixed;
+bottom:30px;
+right:30px;
+background:#25D366;
+padding:18px;
+border-radius:50%;
+color:white;
+font-size:24px;
+text-decoration:none;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+nav{
+margin-top:15px;
+}
+
+}
